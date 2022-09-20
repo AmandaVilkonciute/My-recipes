@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(199, 223, 226);
+    background-color: rgba(3, 12, 14, 0.044);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
@@ -21,7 +21,7 @@ h1,h2,h3,.section,.content{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(20, 20, 171);
+    color: rgb(9, 9, 28);
 }
 .btn{
     font-size: 20px;
