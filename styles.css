@@ -3,7 +3,7 @@ body{
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
-    justify-content: center;
+    justify-content:center;
     margin: 50px 0px 100px 20px;
     height:fit-content;
 }
@@ -12,6 +12,9 @@ body{
 img{
     height: 222px;
     width: 400px;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 p,ol,ul{
     width: 550px;
@@ -41,12 +44,12 @@ h1,h2,h3,.section,.content{
     width: 600px;
     height: 80px;
     background: rgb(247, 240, 240);
-    justify-content: center;
+    text-align: center;
     border-radius: 5px;
 }
 .flex-box2{
     width: 400px;
-    height: 300px;
+    height: 350px;
     background: whitesmoke;
     justify-content: center;
     align-items:flex-start;
@@ -68,4 +71,7 @@ h1,h2,h3,.section,.content{
     justify-content: center;
     align-items:flex-start;
     border-radius: 5px; 
+}
+.flex-container{
+
 }
