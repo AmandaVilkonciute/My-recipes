@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(3, 12, 14, 0.044);
+    background-color: rgba(3, 12, 14, 0.137);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
@@ -30,10 +30,45 @@ h1,h2,h3,.section,.content{
     display: block;
     text-decoration: none;
     color: black;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     border: black 1px solid;
     border-radius: 5px;
     text-align: center;
     padding-top: 6px;
+}
 
+.flex-box1{
+    width: 600px;
+    height: 80px;
+    background: rgb(247, 240, 240);
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction:column-reverse;
+    text-align: left;
+
+}
+.flex-box2{
+    width: 400px;
+    height: 300px;
+    background: whitesmoke;
+    justify-content: center;
+    align-items:flex-start;
+    border-radius: 5px;
+}
+
+.flex-box4{
+    width: 600px;
+    height: 450px;
+    background: whitesmoke;
+    justify-content: center;
+    align-items:flex-start;
+    border-radius: 5px;    
+}
+.flex-box5{
+    width: 600px;
+    height: 700px;
+    background: whitesmoke;
+    justify-content: center;
+    align-items:flex-start;
+    border-radius: 5px; 
 }
